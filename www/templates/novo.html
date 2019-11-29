@@ -1,0 +1,63 @@
+<ion-view style="" class=" " id="page7" title="Fase 2 - 7 A 12 M">
+
+	 <ion-content class="has-header" padding="false"  ng-init="loadMenu()"  >
+
+
+
+
+ <ion-item href="#/page19" style="margin-top: 20px;">
+
+       <p> 2 Papinhas - Almoço e Janta </p> 
+        <strong style="margin-left: 220px;"> R$: 10 {{total_amount}}</strong>
+      
+       <p>250g </p>
+
+
+
+
+				  <a class="item item-icon-right assertive" href="javascript:void(0)"  style="border-width: 0px; border-style: none;" >
+					<p ng-click="showProductInfo(menu[$index+1].$id)" style="font-size: 12px;text-align:left;">
+            {{menu[$index+1].name}} <br/>
+						
+					</p>
+				
+				  </a>
+
+</ion-item>
+
+
+ <ion-item href="#/page19" style="margin-top: 10px;">
+
+       <p> 2 Papinhas - Almoço e Janta </p> 
+         <strong style="margin-left: 220px;"> R$: 10 {{total_amount}}</strong>
+      
+       <p>250g </p>
+
+				  <a class="item item-icon-right assertive" href="javascript:void(0)"  style="border-width: 0px; border-style: none;" >
+					<p ng-click="showProductInfo(menu[$index+1].$id)" style="font-size: 12px;text-align:left;">
+            {{menu[$index+1].name}} <br/>
+						
+					</p>
+					
+				  </a>
+       </ion-item>
+
+
+ <ion-item href="#/page19" style="margin-top: 10px;">
+
+       <p> 2 Papinhas - Almoço e Janta </p> 
+          <strong style="margin-left: 220px;"> R$: 10 {{total_amount}}</strong>
+      
+				  <a class="item item-icon-right assertive" href="javascript:void(0)"  style="border-width: 0px; border-style: none;" >
+					<p ng-click="showProductInfo(menu[$index+1].$id)" style="font-size: 12px;text-align:left;">
+            {{menu[$index+1].name}} <br/>
+					
+					</p>
+				
+				  </a>
+       <p>250g </p>
+
+
+</ion-item>
+	</ion-content>
+</ion-view>

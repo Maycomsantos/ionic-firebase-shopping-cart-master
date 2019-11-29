@@ -1,0 +1,35 @@
+<ion-view style="" class=" " id="page6" title="Cadastrar">
+  <ion-content class="has-header" padding="true" style="background: url() center; background-size: cover;">
+      <form name="signupForm" class="list " id="signup-form2">
+          <ion-list class=" " id="signup-list3">
+
+       <div class="app-icon"></div>
+
+            <label class="item item-input item-floating-label">
+              <span style="color: black;"  class="input-label">Nome</span>
+              <input style="color: black;" ng-model="user.name" type="text" placeholder="Nome">
+            </label>
+
+            <label class="item item-input item-floating-label">
+              <span style="color: black;" class="input-label">Telefone</span>
+              <input style="color: black;" ng-model="user.phone" type="tel" placeholder="Telefone">
+            </label>
+
+            <label class="item item-input item-floating-label">
+                <span style="color: black;" class="input-label">Email</span>
+                <input style="color: black;" ng-model="user.email" type="email" placeholder="Email">
+            </label>
+
+            <label class="item item-input item-floating-label">
+                <span style="color: black;" class="input-label">Senha</span>
+                <input style="color: black;" ng-model="user.password" type="password" placeholder="Senha">
+            </label>
+
+
+          </ion-list>
+          <div style="width: 279px; height: 35px;" class="spacer"></div>
+          <button ng-click="signupEmail(signupForm,user)" class=" button button-assertive  button-block  icon-left ion-ios-email-outline " style="border-radius:0px 0px 0px 0px;" id="signup-button3">ENTRAR</button>
+         
+      </form>
+  </ion-content>
+</ion-view>
